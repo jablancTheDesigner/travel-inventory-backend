@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": " npx tsc && node dist/index.js"
+    "start": " npx tsc && node app.local.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,8 @@
     "apollo-server-express": "^3.13.0",
     "cors": "^2.8.5",
     "express": "^4.21.1",
-    "mongoose": "^8.7.3"
+    "mongoose": "^8.7.3",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.8.1",
