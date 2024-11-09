@@ -1,0 +1,19 @@
+{
+    "cars": [
+        {
+            "make":"Mazda",
+            "model":"CX-30",
+            "year": 2021
+        },
+        {
+            "make":"Toyota",
+            "model":"4-Runner",
+            "year": 2006
+        },
+        {
+            "make":"Toyota",
+            "model":"Camry XL",
+            "year": 1995
+        }
+    ]
+}
