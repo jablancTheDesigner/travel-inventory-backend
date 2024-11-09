@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": " npx tsc && node app.local.js"
+    "dev": " npx tsc && node dist/app.local.js",
+    "start": " npx tsc && node dist/app.js"
   },
   "keywords": [],
   "author": "",
