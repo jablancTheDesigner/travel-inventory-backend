@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "dev": "npx tsc && node dist/appLocal.js",
+    "dev": "npx ts-node appLocal.ts",
     "start": "npx ts-node app.ts"
   },
   "keywords": [],
