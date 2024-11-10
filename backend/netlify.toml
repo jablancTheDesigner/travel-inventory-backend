@@ -1,5 +1,5 @@
 [build.environment]
-  command: "npm run start"
+  command = "npm run start"
 [functions]
   external_node_modules = ["express"]
   node_bundler = "esbuild"
