@@ -1,5 +1,7 @@
 import serverless from "serverless-http";
 import express from "express";
+import { createHandler } from "graphql-http/lib/use/express";
+import { buildSchema } from "graphql";
 
 const app = express();
 
